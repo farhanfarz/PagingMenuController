@@ -292,7 +292,7 @@ extension PagingMenuController: UIScrollViewDelegate {
         default: return
         }
         
-        moveToMenuPage(nextPage)
+        // moveToMenuPage(nextPage)
     }
     
     public func scrollViewDidEndDragging(scrollView: UIScrollView, willDecelerate decelerate: Bool) {
@@ -302,7 +302,7 @@ extension PagingMenuController: UIScrollViewDelegate {
         }
         
         let nextPage = nextPageFromCurrentPoint
-        moveToMenuPage(nextPage)
+        // moveToMenuPage(nextPage)
     }
 }
 
